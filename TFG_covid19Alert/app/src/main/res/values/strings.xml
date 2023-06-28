@@ -1,0 +1,66 @@
+<resources>
+    <string name="foto">foto</string>
+    <string name="vacio"></string>
+    <string name="app_name">COVID-19 Alert</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+
+    //main
+    <string name="dni">DNI usuario</string>
+    <string name="contra">Contraseña</string>
+    <string name="registro">Registro</string>
+    <string name="comun">Comunidad Autónoma</string>
+    <string name="nombre">Nombre</string>
+    <string name="nocuenta">¿No está registrado? Clique aquí</string>
+    <string name="nuevou">Nuevo usuario</string>
+    <string name="ident">Identificación</string>
+
+    <string name="bienvenido">Cargando...</string>
+    <string name="salir">Cerrar sesión</string>
+
+    <string-array name="comunidades">
+        <item>Andalucia</item>
+        <item>Aragon</item>
+        <item>Asturias</item>
+        <item>Cantabria</item>
+        <item>C La Mancha</item>
+        <item>C Y Leon</item>
+        <item>Canarias</item>
+        <item>Cataluña</item>
+        <item>Ceuta</item>
+        <item>C Madrid</item>
+        <item>C Valenciana</item>
+        <item>Extremadura</item>
+        <item>Galicia</item>
+        <item>I Baleares</item>
+        <item>La Rioja</item>
+        <item>Melilla</item>
+        <item>Murcia</item>
+        <item>Navarra</item>
+        <item>Pais Vasco</item>
+    </string-array>
+
+
+    <string name="title_activity_resumen">Resumen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Intenta poner el usuario</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_registro">Registrar lugar</string>
+    <string name="menu_visita">Lugares visitados</string>
+    <string name="menu_mensajes">Mensajes y alertas</string>
+    <string name="menu_consej">Consejos y recomendaciones</string>
+    <string name="menu_cerrar">Cerrar sesión</string>
+
+
+    <string name="tab_text_1">Lista lugares</string>
+    <string name="tab_text_2">Mensajes</string>
+
+    <string name="hello_blank_fragment">Poner el listado</string>
+    <string name="txt_qr">¿Estás en un nuevo lugar? Busca el código QR del establecimiento y escanéalo</string>
+    <string name="no_notif">Estás de suerte, no hay ninguna novedad</string>
+    <string name="emergencia">Notificar circunstancia</string>
+    <string name="butt_esc">Escanear</string>
+</resources>

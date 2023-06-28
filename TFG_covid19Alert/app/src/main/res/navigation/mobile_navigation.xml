@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_registro"
+        android:name="com.example.tfg_covid19alert.ui.registro.RegistroFragment"
+        android:label="@string/menu_registro"
+        tools:layout="@layout/fragment_registro" />
+
+    <fragment
+        android:id="@+id/nav_viista"
+        android:name="com.example.tfg_covid19alert.ui.visita.VisitaFragment"
+        android:label="@string/menu_visita"
+        tools:layout="@layout/fragment_visita" />
+
+    <fragment
+        android:id="@+id/nav_mensajes"
+        android:name="com.example.tfg_covid19alert.ui.mensajes.MensajesFragment"
+        android:label="@string/menu_mensajes"
+        tools:layout="@layout/fragment_mensajes" />
+
+    <fragment
+        android:id="@+id/nav_consej"
+        android:name="com.example.tfg_covid19alert.ui.consejos.ConsejosFragment"
+        android:label="@string/menu_consej"
+        tools:layout="@layout/fragment_consejos" />
+
+
+    <fragment
+        android:id="@+id/nav_cerrar"
+        android:name="com.example.tfg_covid19alert.ui.cerrar.CerrarFragment"
+        android:label="@string/menu_cerrar"
+        tools:layout="@layout/fragment_cerrar" />
+</navigation>
